@@ -31,4 +31,9 @@ public class WishMessage {
     public String hello(){
         return "Spring-Jenkins";
     }
+
+    @GetMapping("/jenkins1")
+    public String hello1(){
+        return "Spring-Jenkins";
+    }
 }
