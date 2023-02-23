@@ -27,4 +27,8 @@ public class WishMessage {
         else
             return "Good Night " + user;
     }
+    @GetMapping("/jenkins")
+    public String hello(){
+        return "Spring-Jenkins";
+    }
 }
